@@ -111,17 +111,19 @@ La documentación de la API está disponible en:
 http://localhost:3001/api-docs
 
 ### 🛠️ Extras Implementados
-✅ Código modular y limpio, con una arquitectura escalable basada en la separación de responsabilidades.
-✅ Middleware de validación con Joi, asegurando la integridad y consistencia de los datos recibidos.
-✅ Rutas protegidas con JWT, implementando un sistema de refresh tokens para renovación segura de sesión.
-✅ Estandarización de respuestas a nivel global, garantizando una comunicación consistente en la API.
-✅ Depuración avanzada, con una consola personalizada para facilitar la identificación y solución de errores.
-✅ Manejo centralizado de errores, a través de un middleware dedicado para una mejor gestión de excepciones.
-✅ Seguridad mejorada, utilizando Helmet, CORS, Data Sanitization y Rate Limiting para mitigar vulnerabilidades.
-✅ Restablecimiento seguro de contraseñas, con envío de correos a través de Nodemailer.
-✅ Control y registro de sesiones activas, evitando el robo y uso indebido de tokens de autenticación.
-✅ Arquitectura basada en Servicios (Service Layer Architecture), optimizando la escalabilidad y mantenibilidad del código.
-✅ Inicialización rápida y eficiente de la base de datos, mediante Sequelize CLI.
+
+- ✅ Código modular y limpio, con una arquitectura escalable basada en la separación de responsabilidades.
+- ✅ Middleware de validación con Joi, asegurando la integridad y consistencia de los datos recibidos.
+- ✅ Rutas protegidas con JWT, implementando un sistema de refresh tokens para renovación segura de sesión.
+- ✅ Estandarización de respuestas a nivel global, garantizando una comunicación consistente en la API.
+- ✅ Depuración avanzada, con una consola personalizada para facilitar la identificación y solución de errores.
+- ✅ Manejo centralizado de errores, a través de un middleware dedicado para una mejor gestión de excepciones.
+- ✅ Seguridad mejorada, utilizando Helmet, CORS, Data Sanitization y Rate Limiting para mitigar vulnerabilidades.
+- ✅ Restablecimiento seguro de contraseñas, con envío de correos a través de Nodemailer.
+- ✅ Control y registro de sesiones activas, evitando el robo y uso indebido de tokens de autenticación.
+- ✅ Arquitectura basada en Servicios (Service Layer Architecture), optimizando la escalabilidad y mantenibilidad del código.
+- ✅ Inicialización rápida y eficiente de la base de datos, mediante Sequelize CLI.
+
 
 ### 🧪 Pruebas
 Para ejecutar las pruebas, usa el siguiente comando:

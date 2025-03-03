@@ -79,6 +79,7 @@ PROD_CORS_ORIGIN='*'
 #### ⚙️ Opcional: Docker
 ```sh
 docker-compose up -d
+````` 
 
 Local:
 npx sequelize-cli db:create

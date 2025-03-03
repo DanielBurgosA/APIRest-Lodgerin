@@ -49,29 +49,29 @@ Crea un archivo .env basado en .env.example y configura los valores:
 ##### Port back
 PORT=3001
 
-####Modo Mantenimiento
+##### Modo Mantenimiento
 MAINTENANCE_MODE='false'
 
-####Credenciales DB (Formato del .env - Mail credentials se conectan a NodeMailer
+##### Credenciales DB
 DB_USER=TU_USER
 DB_PASSWORD=TU_CLAVE
 DB_HOST="localhost"
 DB_PORT="5432"
 DB_NAME="xxxxxxxxx"
 
-#JWT_SECRETS
+##### JWT_SECRETS
 JWT_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 JWT_REFRESH_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 JWT_RESET_PASSWORD_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
-#MAIL CREDENTIALS
+##### MAIL CREDENTIALS
 EMAIL_USER="xxxxxxxxxxxxxxxxxxxxxxxxxx"
 EMAIL_PASS="xxxxxxxxxxxxxx"
 
-#SALT ROUNDS
+##### SALT ROUNDS
 SALT_ROUNDS=10
 
-# Producción
+##### Producción
 PROD_CORS_ORIGIN='*'
 
 

@@ -2,7 +2,7 @@
 
 ## 📌 Descripción del Proyecto
 
-# 🚀 API REST potente y segura  
+### 🚀 API REST potente y segura  
 
 Desarrollada con **Node.js**, **Express.js** y **PostgreSQL**, cumpliendo con todos los requerimientos del reto técnico y **más allá**.  
 

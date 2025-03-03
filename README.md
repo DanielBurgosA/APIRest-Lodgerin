@@ -2,20 +2,28 @@
 
 ## 📌 Descripción del Proyecto
 
-Esta API REST está desarrollada con **Node.js**, **Express.js** y **PostgreSQL**, cumpliendo con los requerimientos del reto técnico. Incluye autenticación con **JWT**, seguridad con **Helmet** y **CORS**, documentación con **Swagger**, y pruebas unitarias con **Jest/Mocha+Chai**. Además, se han agregado mejoras para optimización, seguridad y código limpio.
+🚀 API REST potente y segura, desarrollada con Node.js, Express.js y PostgreSQL, cumpliendo con todos los requerimientos del reto técnico y más allá.
+
+🔐 Autenticación robusta con JWT, reforzada con Helmet y CORS para máxima seguridad.
+📑 Documentación clara y detallada con Swagger, facilitando la integración.
+🧪 Pruebas unitarias con Jest, asegurando estabilidad y confiabilidad.
+⚡ Arquitectura escalable basada en servicios, con separación de responsabilidades para un código modular, limpio y fácil de mantener.
+💡 Extras añadidos: optimización de rendimiento, mejoras de seguridad, manejo avanzado de errores, registro de sesiones activas para evitar robo de tokens, filtrados extra, rol de Super Aministrador para un caso más real, envío de correos y más.
+
+Una API lista para escalar, segura y bien estructurada. 🚀
 
 ---
 
 ## 📖 Tabla de Contenidos
 
-- [📌 Descripción del Proyecto](#-descripción-del-proyecto)
-- [📦 Instalación y Configuración](#-instalación-y-configuración)
-- [⚙️ Uso de la API](#️-uso-de-la-api)
-- [🔑 Autenticación y Roles](#-autenticación-y-roles)
-- [📜 Documentación con Swagger](#-documentación-con-swagger)
-- [🛠️ Extras Implementados](#️-extras-implementados)
-- [✅ Pruebas Unitarias](#-pruebas-unitarias)
-- [💡 Consideraciones Finales](#-consideraciones-finales)
+- [📌 Descripción del Proyecto](#descripcion-del-proyecto)
+- [📦 Instalación y Configuración](#instalacion-y-configuracion)
+- [⚙️ Uso de la API](#uso-de-la-api)
+- [🔑 Autenticación y Roles](#autenticacion-y-roles)
+- [📜 Documentación con Swagger](#documentacion-con-swagger)
+- [🛠️ Extras Implementados](#extras-implementados)
+- [🧪 Pruebas](#pruebas)
+- [💡 Consideraciones Finales](#consideraciones-finales)
 
 ---
 

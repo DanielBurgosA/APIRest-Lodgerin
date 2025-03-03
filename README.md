@@ -26,6 +26,7 @@ Esta API REST está desarrollada con **Node.js**, **Express.js** y **PostgreSQL*
 ```bash
 git clone https://github.com/tuusuario/repo-api.git
 cd repo-api
+
 2️⃣ Instalar dependencias
 
 npm install
@@ -63,10 +64,13 @@ SALT_ROUNDS=10
 PROD_CORS_ORIGIN='*'
 
 4️⃣ Ejecutar migraciones y seeders
-opcional: Docker
-docker-compose up-d
 
-local:
+Opcional: Docker
+
+docker-compose up -d
+
+Local:
+
 npx sequelize-cli db:create
 npx sequelize-cli db:migrate
 npx sequelize-cli db:seed:all
@@ -75,19 +79,23 @@ npx sequelize-cli db:seed:all
 
 npm run dev
 
-Para tst:
+Para ejecutar pruebas:
 
 npm test
 
 El servidor estará disponible en http://localhost:3001.
+
 ⚙️ Uso de la API
+
 🔑 Autenticación y Roles
 
 La API implementa JWT (JSON Web Token) para la autenticación de usuarios. Los roles definidos son:
 
-    Guest (3) → Solo puede registrarse e iniciar sesión.
-    Admin (2) → Acceso completo a la API.
-    SuperAdmin (1) → Permisos avanzados de administración.
+Guest (3) → Solo puede registrarse e iniciar sesión.
+
+Admin (2) → Acceso completo a la API.
+
+SuperAdmin (1) → Permisos avanzados de administración.
 
 El token se genera en el login y debe incluirse en el Authorization header:
 
@@ -101,15 +109,9 @@ http://localhost:3001/api-docs
 
 🛠️ Extras Implementados
 
-✅ Código modular y limpio con separación de responsabilidades
-✅ Middleware de validación con Joi
-✅ Rutas protegidas con JWT
-✅ Manejo adecuado de errores con middleware centralizado
-✅ Uso de Helmet, CORS, Sanitace y Rate Limit para seguridad
-✅ Reestablecimietno de contraseña con envío de correros con Nodemailer
-✅ Control y registro de sesiones con tablas extra para seguridad
-✅ Arquitectura basada en Servicios
-✅ Inicialización rápida con sequelize-cli
+✅ Código modular y limpio con separación de responsabilidades✅ Middleware de validación con Joi✅ Rutas protegidas con JWT✅ Manejo adecuado de errores con middleware centralizado✅ Uso de Helmet, CORS, Sanitize y Rate Limit para seguridad✅ Restablecimiento de contraseña con envío de correos con Nodemailer✅ Control y registro de sesiones con tablas extra para seguridad✅ Arquitectura basada en Servicios✅ Inicialización rápida con sequelize-cli
+
+🧪 Pruebas
 
 Para ejecutar las pruebas, usa el siguiente comando:
 
@@ -117,19 +119,12 @@ npm test
 
 Las pruebas cubren:
 
-✔ Autenticación
-✔ CRUD de usuarios
-✔ Creación y consulta de transacciones
-✔ Middleware de autenticación
+✔ Autenticación✔ CRUD de usuarios✔ Creación y consulta de transacciones✔ Middleware de autenticación
+
 💡 Consideraciones Finales
 
-Esta API ha sido diseñada con un enfoque modular, escalable y seguro.
-Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue en el repositorio.
+Esta API ha sido diseñada con un enfoque modular, escalable y seguro.Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue en el repositorio.
 
 🚀 ¡Gracias por revisar este proyecto! 😃🔥🚀
 
 
----
-
-**Este README está 100% en Markdown y listo para usar en GitHub.**  
-¿Quieres algún ajuste o agregar más detalles? 🚀😃

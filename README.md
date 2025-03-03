@@ -81,10 +81,12 @@ PROD_CORS_ORIGIN='*'
 docker-compose up -d
 ````` 
 
-Local:
+#### ⚙️ Local
+```sh
 npx sequelize-cli db:create
 npx sequelize-cli db:migrate
 npx sequelize-cli db:seed:all
+`````
 
 ### 5️⃣ Iniciar el servidor
 npm run dev

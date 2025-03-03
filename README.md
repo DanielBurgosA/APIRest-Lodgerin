@@ -46,32 +46,32 @@ npm install
 
 Crea un archivo .env basado en .env.example y configura los valores:
 
-##### Port back
+#### PORT BACK
 PORT=3001
 
-##### Modo Mantenimiento
+#### MODO MANTENIMIENTO
 MAINTENANCE_MODE='false'
 
-##### Credenciales DB
+#### CREDENCIALES DB
 DB_USER=TU_USER
 DB_PASSWORD=TU_CLAVE
 DB_HOST="localhost"
 DB_PORT="5432"
 DB_NAME="xxxxxxxxx"
 
-##### JWT_SECRETS
+#### JWT_SECRETS
 JWT_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 JWT_REFRESH_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 JWT_RESET_PASSWORD_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
-##### MAIL CREDENTIALS
+#### MAIL CREDENTIALS
 EMAIL_USER="xxxxxxxxxxxxxxxxxxxxxxxxxx"
 EMAIL_PASS="xxxxxxxxxxxxxx"
 
-##### SALT ROUNDS
+#### SALT ROUNDS
 SALT_ROUNDS=10
 
-##### Producción
+#### PRODUCTION
 PROD_CORS_ORIGIN='*'
 
 

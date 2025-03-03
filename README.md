@@ -2,15 +2,18 @@
 
 ## 📌 Descripción del Proyecto
 
-🚀 API REST potente y segura, desarrollada con Node.js, Express.js y PostgreSQL, cumpliendo con todos los requerimientos del reto técnico y más allá.
+# 🚀 API REST potente y segura  
 
-🔐 Autenticación robusta con JWT, reforzada con Helmet y CORS para máxima seguridad.
-📑 Documentación clara y detallada con Swagger, facilitando la integración.
-🧪 Pruebas unitarias con Jest, asegurando estabilidad y confiabilidad.
-⚡ Arquitectura escalable basada en servicios, con separación de responsabilidades para un código modular, limpio y fácil de mantener.
-💡 Extras añadidos: optimización de rendimiento, mejoras de seguridad, manejo avanzado de errores, registro de sesiones activas para evitar robo de tokens, filtrados extra, rol de Super Aministrador para un caso más real, envío de correos y más.
+Desarrollada con **Node.js**, **Express.js** y **PostgreSQL**, cumpliendo con todos los requerimientos del reto técnico y **más allá**.  
 
-Una API lista para escalar, segura y bien estructurada. 🚀
+🔐 **Autenticación robusta con JWT**, reforzada con **Helmet** y **CORS** para máxima seguridad.  
+📑 **Documentación clara y detallada con Swagger**, facilitando la integración.  
+🧪 **Pruebas unitarias con Jest**, asegurando estabilidad y confiabilidad.  
+⚡ **Arquitectura escalable basada en servicios**, con separación de responsabilidades para un **código modular, limpio y fácil de mantener**.  
+💡 **Extras añadidos**: optimización de rendimiento, **mejoras de seguridad, manejo avanzado de errores, registro de sesiones activas para evitar robo de tokens, filtrados extra, rol de SuperAdministrador para un caso más real, envío de correos y más**.  
+
+**Una API lista para escalar, segura y bien estructurada.** 🚀  
+
 
 ---
 

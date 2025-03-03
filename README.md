@@ -23,11 +23,11 @@ Esta API REST está desarrollada con **Node.js**, **Express.js** y **PostgreSQL*
 ## 📦 Instalación y Configuración
 
 ### 1️⃣ **Clonar el repositorio**
-```bash
+bash
 git clone https://github.com/tuusuario/repo-api.git
 cd repo-api
 
-2️⃣ Instalar dependencias
+### 2️⃣ Instalar dependencias
 
 npm install
 

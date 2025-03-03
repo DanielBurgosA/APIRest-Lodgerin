@@ -76,7 +76,8 @@ PROD_CORS_ORIGIN='*'
 
 
 ### 4️⃣ Ejecutar migraciones y seeders
-Opcional: Docker
+#### ⚙️ Opcional: Docker
+```sh
 docker-compose up -d
 
 Local:

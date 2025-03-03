@@ -46,13 +46,13 @@ npm install
 
 Crea un archivo .env basado en .env.example y configura los valores:
 
-# Port back
+##### Port back
 PORT=3001
 
-#Modo Mantenimiento
+####Modo Mantenimiento
 MAINTENANCE_MODE='false'
 
-#Credenciales DB
+####Credenciales DB (Formato del .env - Mail credentials se conectan a NodeMailer
 DB_USER=TU_USER
 DB_PASSWORD=TU_CLAVE
 DB_HOST="localhost"

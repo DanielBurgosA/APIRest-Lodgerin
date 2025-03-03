@@ -46,8 +46,9 @@ const options = {
         '🔐 **Autenticación con JWT y sistema de permisos basado en roles**.\n' +
         '📩 **Recuperación de contraseña con envío de correo real**.\n\n' +
         '🚀 **¡Cómo empezar!**\n' +
-        '1️⃣ El primer usuario que realices un `signIn` será el **SuperAdministrador** y tendrá control total.\n' +
-        '2️⃣ Para acceder a los endpoints protegidos, debes incluir un **JWT Token válido** en `BearerAuth`.\n' +
+        '⚠️ **IMPORTANTE:** Para usar la API correctamente, sigue las instrucciones de inicio en el `README` de GitHub \n\n'+
+        '1️⃣ El primer usuario que realices un `signIn` será el **SuperAdministrador** y tendrá control total.\n\n' +
+        '2️⃣ Para acceder a los endpoints protegidos, debes incluir un **JWT Token válido** en `BearerAuth`.\n\n' +
         '3️⃣ Si olvidas tu contraseña, usa `password/reset`, que enviará un correo real con el token de restablecimiento. 📧\n\n' +
         '🔒 **Autenticación y Seguridad**\n' +
         '✅ Todos los endpoints protegidos requieren un **JWT Token**.\n' +
@@ -59,7 +60,10 @@ const options = {
         '🔹 Los usuarios estándar solo pueden gestionar su propia cuenta.\n\n' +
         '📖 **Más Información**\n' +
         'Para instrucciones detalladas sobre instalación y uso, consulta el `README` en el repositorio de GitHub. 📝\n\n' +
-        '¡Lodgerin está listo para llevar tu desarrollo al siguiente nivel! 🚀'
+        '⚠️ **IMPORTANTE:** Para usar la API correctamente, sigue las instrucciones de inicio en el `README` de GitHub y recuerda los IDs de los roles:\n' +
+        '   - **1 → SuperAdmin**\n' +
+        '   - **2 → Admin**\n' +
+        '   - **3 → Guest**\n'
     },
     servers: [
       {
